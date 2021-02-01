@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in HTML</title>
+</head>
+<body>
+    <h2>Table</h2>
+    <table 
+        border="3px"
+        cellpadding="15px"
+        cellspacing="10px"
+    >
+        <thead>
+            <tr>
+                <th></th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th rowspan="3">6</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>Monday</th>
+                <td>English</td>
+                <td>Maths</td>
+                <td>Hindi</td>
+                <td>CS</td>
+                <td rowspan="2">Science</td>
+                <td>Games</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td>Hindi</td>
+                <td rowspan="2">English</td>
+                <td colspan="2">Maths</td>
+                <td>CS</td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>CS</td>
+                <td>English</td>
+                <td rowspan="2">SSt</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+</html>
