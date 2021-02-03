@@ -1,0 +1,27 @@
+.box {
+    height: 400px;
+    width: 400px;
+    background-color: lightgreen;
+}
+
+p {
+    visibility : hidden;
+}
+
+.box:hover {
+    background-color: lightblue;
+    height: 500px;
+    width: 500px;
+}
+
+.box:hover p{
+    visibility: visible;
+}
+
+.box:active {
+    background-color: lightcoral;
+}
+
+input:focus {
+    font-size: 50px;
+}
