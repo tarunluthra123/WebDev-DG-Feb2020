@@ -46,10 +46,15 @@ p {
 }
 
 .another-box {
-    width: 200px;
-    height: 200px;
+    width: 50vw;  /*vw = viewport width */
+    /* 1vw = 1% of your total width of the page */
+    /* 100 vw = your entire width */
+    height: 50vh;
+    /* vh = viewport height */
+    /* 100vh = total height of your viewport */
     background-color: lightslategrey;
     border: 4px solid black;
     margin: 50px auto;
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    /* border-radius: 50%; */
 }

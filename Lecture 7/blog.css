@@ -1,0 +1,26 @@
+body {
+    width: 60vw;
+    border: 20px solid grey;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.date {
+    color: rgb(79, 154, 253);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.quote {
+    border-left: 5px solid rgb(173, 173, 173);
+    padding-left: 5px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    text-align: center;
+}
