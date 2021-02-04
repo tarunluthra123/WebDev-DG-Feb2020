@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 150px;
+    height: 0;
+    font-size: 25px;
+    padding: 70px 0;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 100px;
+    transition-duration: 1000ms;
+}
+
+.container:hover .one {
+    background-color: #d4f1f4;
+    transform: translateX(300px)
+}
+
+.container:hover .two {
+    background-color: #75e6da;
+    transform: translateY(-300px);
+}
+
+.container:hover .three {
+    background-color: #189ab4;
+    transform: scaleX(2);
+}
+
+.container:hover .four {
+    background-color: #1f9fd6;
+    transform: scaleY(0.5)
+}
+
+.container:hover .five {
+    background-color: aqua;
+    transform: skewX(-45deg);
+}
+
+.container:hover .six {
+    background-color: rgb(39, 223, 223);
+    transform: skewY(10deg);
+}

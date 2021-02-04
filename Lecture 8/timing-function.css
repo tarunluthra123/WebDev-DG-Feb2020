@@ -1,0 +1,39 @@
+.box {
+    width: 150px;
+    height: 0;
+    color: black;
+    text-align: center;
+    padding: 60px 0;   
+    font-size: 25px;
+    transition-duration: 1s;
+    transition-delay: 500ms;
+}
+
+.one {
+    background-color:  #d4f1f4;
+    transition-timing-function: linear;
+    /* Moves at a consistent speed throughout */
+    /* This is the default setting */
+}
+
+.two {
+    background-color: #75e6da;
+    transition-timing-function: ease-in;
+    /* Starts slow .... gets faster later on */
+}
+
+.three {
+    background-color: #189ab4;
+    transition-timing-function: ease-out;
+    /* Starts fast .... but gets slow */
+}
+
+.four {
+    background-color: #1f9fd6;
+    transition-timing-function: ease-in-out;
+    /* Slow - fast - slow */
+}
+
+.container:hover .box {
+    width: 400px;
+}

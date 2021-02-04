@@ -1,0 +1,16 @@
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    transition-duration: 2s;
+    /* 1000ms = 1s */
+    transition-property: width, height, background-color;
+    /* transition: background-color 2s ease-in 0; */
+}
+
+
+.box:hover {
+    background-color: lightcoral;
+    height: 600px;
+    width: 600px;
+}

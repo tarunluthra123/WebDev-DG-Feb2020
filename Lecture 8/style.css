@@ -1,0 +1,56 @@
+body {
+    background-color: lightblue;
+}
+
+.box {
+    height: 200px;
+    width: 70vw;
+    /* 100vw = Entire viewport width */
+    background-color: #c4c4c4;
+    max-width: 800px;
+    min-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+
+    box-shadow: 40px 30px 25px red,
+                -30px -10px 5px blue,
+                -50px 20px 4px green;
+    /* horizonal-offset vertical-offset blur color */
+
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+
+    color: #f5f5f5;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
