@@ -1,0 +1,50 @@
+body {
+    perspective: 1000px;
+    background-color: lightpink;
+}
+
+div {
+    height: 300px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.side-a, .side-b {
+    position: absolute;
+    backface-visibility: hidden;
+    padding: 10px;
+}
+
+.side-b {
+    background-color: lightblue;
+    transform: rotateY(180deg);
+}
+
+.side-a {
+    background-color: lightcoral;
+    background-image: url('baymax.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    transition: all 2s;
+    transform-style: preserve-3d;
+    margin: 30vh auto;
+    /* background-color: white; */
+}
+
+.container:hover {
+    transform: rotateY(180deg);
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: cen;
+}
