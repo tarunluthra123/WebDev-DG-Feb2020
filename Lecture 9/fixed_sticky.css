@@ -1,0 +1,43 @@
+.sticky-container, .fixed-container {
+    height: 500px;
+    width: 500px;
+    background-color: lightsalmon;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+main {
+    margin-top: 10vh;
+}
+
+.sticky-container {
+    margin-left: 30vw;
+}
+
+.sticky-box , .fixed-box {
+    width: 100px;
+    height: 100px;
+    background-color: lightskyblue;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.sticky-box {
+    position: sticky;
+    top: 20px;
+}
+
+.fixed-box {
+    position: fixed;
+}
+
+nav {
+    background-color: aqua;
+    height: 10vh;
+    font-size: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}

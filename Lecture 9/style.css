@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.outer {
+    background-color: lightseagreen;
+    height: 80vh;
+    margin: 10vw;
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+    position: relative;
+}
+
+p {
+    position: relative;
+    z-index: 1;
+}
+
+.inner {
+    background-color: rgb(141, 197, 245);
+    /* width: 100px;
+    height: 100px; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20vw;
+    right: 40%;
+    /* z-index: -1; */
+}
