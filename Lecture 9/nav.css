@@ -1,0 +1,31 @@
+nav {
+    position: fixed;
+    height: 10vh;
+    background-color: aqua;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+nav .hover-here {
+    display: block;
+}
+
+nav .options {
+    display: none;
+}
+
+nav:hover .hover-here {
+    display: none;
+}
+
+nav:hover .options {
+    display: block;
+}
+
+#para1 {
+    margin-top: 15vh;
+}
