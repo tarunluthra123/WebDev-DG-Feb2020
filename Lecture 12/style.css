@@ -9,6 +9,15 @@ p {
     font-size: 100px;
 }
 
+.image-container {
+    background-image: url('mojo.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: contain;
+}
+
+
+
 /* Media query */
 @media screen and (max-width: 1200px) {
     .box {
@@ -17,7 +26,6 @@ p {
         height: 550px;
     }
 }
-
 
 
 @media screen and (max-width: 900px) {
