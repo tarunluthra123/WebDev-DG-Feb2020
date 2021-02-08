@@ -1,0 +1,45 @@
+.box {
+    height: 200px;
+    width: 700px;
+    border: 1px solid black;
+    background-color: lightblue;
+}
+
+.bar {
+    height: 200px;
+    width: 0;
+    background-color: aqua;
+    animation: loading-bar 2s forwards infinite ease-in-out 4s;
+}
+
+.circle {
+    width: 400px;
+    height: 400px;
+    background-color: lightgreen;
+    border-radius: 50%;
+
+    /* Flexbox properties */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Till here */
+
+    font-size: 50px;
+    animation: spin 3s, loading-bar 2s 3s;
+}
+
+@keyframes loading-bar {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 700px;
+    }
+}
+
+@keyframes spin {
+    100% {
+        transform: rotateZ(360deg);
+    }
+}

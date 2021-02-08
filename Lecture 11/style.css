@@ -1,0 +1,34 @@
+.container {
+    height: 500px;
+    width: 500px;
+    background-color: lightblue;
+    margin: 10vh auto;
+}
+
+.box {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(72, 146, 241);
+    animation: move-box-around 2s ease-out forwards 4 alternate-reverse 1s;
+}
+
+@keyframes move-box-around {
+    /* Initial state */
+    0% {
+        /* transform: translateX(0%); */
+    }
+
+    33% {
+        transform: translateY(100%);
+    }
+
+    66% {
+        transform: translateX(250px) translateY(250px);
+    }
+
+    /* Final state */
+    100% {
+        transform: translateX(100%);
+        background-color: red;
+    }
+}
