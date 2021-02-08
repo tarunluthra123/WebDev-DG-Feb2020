@@ -41,14 +41,14 @@ body {
 
 @keyframes move-city {
     100% {
-        transform: translateX(-700px);
+        transform: translateX(-1000px);
     }
 }
 
 .car {
     width: 400px;
     position: absolute;
-    left: 30vw;
+    left: 300px;
     bottom: 70px;
 }
 
@@ -69,13 +69,12 @@ body {
 
 .wheel {
     position: absolute;
-    left: 37vw;
+    left: 366px;
     bottom: 85px;
-    width: 70px;
 }
 
 .wheel img {
-    width: 100%;
+    width: 70px;
     animation: spin-wheel 0.3s linear infinite;
 }
 
