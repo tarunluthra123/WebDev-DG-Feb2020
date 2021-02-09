@@ -16,8 +16,6 @@ p {
     background-size: contain;
 }
 
-
-
 /* Media query */
 @media screen and (max-width: 1200px) {
     .box {

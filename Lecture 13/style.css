@@ -1,0 +1,65 @@
+.container {
+    background-color: lightgreen;
+    height: 800px;
+    width: 80vw;
+    margin: 50px auto;
+    font-size: 30px;
+    display: flex;          
+    /*This declares our container as a flexbox*/
+
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    /* It arranges the content according to your main-axis(that is defined by flex-direction) */
+
+    align-items: center;
+    /* This arranges the items over your cross-axis */
+    /* Since flex-direction: row; , align-items will arrange according to column */
+
+    align-content: space-between;
+    /* Arranges multiple rows/columns of the flexbox which were created by wrapping the content around. */
+    /* It arranges the rows/columns across the cross-axis */
+}
+
+.item {
+    background-color: lightskyblue;
+    border: 1px solid blue;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.one {
+    /* font-size: 50px; */
+    /* flex-grow: 1.5; */
+}
+
+.two {
+    order: 3;
+    /* flex-grow: 2;
+    flex-shrink: 2; */
+    flex-basis: 200px;
+}
+
+.three {
+    order: 1;
+    /* flex-grow: 1; */
+    flex-basis: 500px;
+}
+
+.four {
+    /* flex-shrink: 5; */
+    align-self: flex-end;
+}
+
+
+.image-container {
+    background-color: aqua;
+    background-image: url('../Lecture\ 12/mojo.jpg');
+    height: 400px;
+    width: 400px;
+    margin: 10px auto;
+    background-size: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
