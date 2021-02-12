@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: lightcoral;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+main {
+    background-color: lightblue;
+    margin-top: 10vh;
+    height: 90vh;
+}
+
+.subMenu {
+    display: none;
+    background-color: lightgray;
+    margin-top: 3px;
+    position: absolute;
+    min-width: 100px;
+    min-height: 200px;
+    list-style: none;
+}
+
+nav a:hover .subMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a:hover .subMenu li {
+    padding: 10px;
+    color: black;
+}
