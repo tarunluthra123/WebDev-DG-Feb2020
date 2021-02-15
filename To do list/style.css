@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(55, 55, 211);
+    margin-top: 20px;
+}
+
+.inputDiv, 
+.taskListContainer {
+    display: flex;
+    justify-content: center;
+}
+
+button,input {
+    margin: 2vh;
+    padding: 2vh;
+}
+
+#taskList {
+    list-style: none;
+}
+
+.task {
+    background-color: rgb(132, 231, 206);
+    color: darkblue;
+    padding: 0.5vw 2vw;
+    margin: 1vw;
+    border-radius: 10px;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.crossBtn {
+    background-color: rgb(255, 94, 121);
+}
+
+.upBtn {
+    background-color: rgb(54, 188, 233);
+}
+
+.downBtn {
+    background-color: orange;
+}
+
+.crossBtn, .upBtn, .downBtn {
+    border: 0;
+    border-radius: 20%;
+    cursor: pointer;
+}
