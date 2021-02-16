@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+
+    <div class="calculator">
+        <div class="result">
+            <p id="output"></p>
+        </div>
+
+        <div class="keyboard">
+            <button id="clear" class="operator">C</button>
+            <button id="backspace" class="operator">⌫</button>
+            <button id="modulo" class="operator" value="%">%</button>
+            <button id="divide" class="operator" value="/">&#247;</button>
+
+            <button class="number" value="7">7</button>
+            <button class="number" value="8">8</button>
+            <button class="number" value="9">9</button>
+            <button class="operator" id="multiply" value="*">&times;</button>
+
+            <button class="number" value="4">4</button>
+            <button class="number" value="5">5</button>
+            <button class="number" value="6">6</button>
+            <button class="operator" id="minus" value="-">-</button>
+
+            <button class="number" value="1">1</button>
+            <button class="number" value="2">2</button>
+            <button class="number" value="3">3</button>
+            <button class="operator" id="plus" value="+">+</button>
+
+            <span class="empty"></button>
+            <button class="number" value="0">0</button>
+            <span class="empty"></span>
+            <button class="operator" id="equal">=</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
