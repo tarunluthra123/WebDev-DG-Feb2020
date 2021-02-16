@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(86, 202, 218);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    margin-top: 30px;
+}
+
+.calculator {
+    width: 350px;
+    height: 500px;
+    margin: 30px auto;
+}
+
+.result {
+    height: 100px;
+    background-color: rgb(182, 180, 180);
+    border-radius: 20px 20px 0 0;
+}
+
+#output {
+    text-align: right;
+    font-size: 40px;
+    margin: 0 20px;
+    padding-top: 40px;
+}
+
+.keyboard {
+    height: 420px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 0 0 20px 20px;
+}
+
+button, .empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(232, 233, 235);
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+
+button:active {
+    font-size: 13px;
+}
+
+.operator {
+    color: white;
+}
+
+#equal {
+    background-color: orange;
+}
+
+#plus {
+    background-color: blue;
+}
+
+#divide {
+    background-color: green;
+}
+
+#minus {
+    background-color: violet;
+}
+
+#multiply {
+    background-color: red;
+}
+
+#modulo {
+    background-color: brown;
+}
+
+#clear, #backspace {
+    color: black;
+}

@@ -1,9 +1,12 @@
 const box = document.getElementById('box')
 const inputBox = document.getElementById('input-box')
 const para = document.getElementById('para')
+const imageContainer = document.getElementById('image-container')
 
 box.addEventListener('click', function (event) {
     console.log(event)
+    imageContainer.style.backgroundImage = "url('mojo.jpg')"
+    imageContainer.style.backgroundSize = 'contain'
 })
 
 box.addEventListener('mouseenter', function (event) {
