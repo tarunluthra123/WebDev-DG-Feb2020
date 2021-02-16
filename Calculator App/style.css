@@ -26,6 +26,7 @@ h1 {
     height: 100px;
     background-color: rgb(182, 180, 180);
     border-radius: 20px 20px 0 0;
+    box-shadow: 10px 10px rgb(88, 171, 182);
 }
 
 #output {
@@ -39,6 +40,7 @@ h1 {
     height: 420px;
     background-color: rgb(243, 243, 243);
     border-radius: 0 0 20px 20px;
+    box-shadow: 10px 10px rgb(88, 171, 182);
 }
 
 button, .empty {
