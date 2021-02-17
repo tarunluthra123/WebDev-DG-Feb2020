@@ -1,0 +1,26 @@
+.box {
+    height: 800px;
+    width: 80vw;
+    background-color: aqua;
+}
+
+/* @media screen and (max-width: 850px) {
+    .box {
+        height: 600px;
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .box {
+        height: 300px;
+        width: 300px;
+        background-color: blue;
+    }
+} */
+
+@media screen and (min-width: 1000px) {
+    .box {
+        background-color: pink;
+    }
+}
