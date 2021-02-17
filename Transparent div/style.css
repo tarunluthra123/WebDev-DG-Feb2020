@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    height: 40vh;
+    width: 100vw;
+}
+
+div:nth-child(2) {
+    background-color: orange;
+}
+
+div:nth-child(3) {
+    background-color: aqua;
+}
+
+div:nth-child(4) {
+    background-color: green;
+}
+
+div:nth-child(5) {
+    background-color: yellow;
+}
+
+div.transparent {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div:nth-child(7) {
+    background-color: cadetblue;
+}
+
+div:nth-child(8) {
+    background-color: coral;
+}
+
+div:nth-child(9) {
+    background-color: rgb(31, 131, 134);
+}
+
+div.image-wrapper {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-image: url('bleach_wallpaper.jpg');
+    opacity: 0.8;
+    z-index: -1;
+}

@@ -18,6 +18,8 @@ for (let i = 0; i < operators.length; i++) {
         const lastChar = output.innerText[output.innerText.length - 1]
         if ("+/*%-".includes(lastChar) && op.value != '-')
             return
+        if (op.value == '-' && lastChar == '-')
+            return
         output.innerText += op.value
     }
 }
